@@ -1,0 +1,67 @@
+
+/* = = = DISPLAY = = = */
+
+.containerDisplay{
+    color: var(--c-text);
+    font-family: var(--ff-text-display);
+    font-size: 8.8rem;
+    line-height: 10.3rem;
+
+    display: flex;
+}
+
+
+/* = = = CONTROLS = = = */
+
+.containerControls{
+    display: flex;
+    justify-content: center;
+    gap: 3.2rem;
+
+    padding: 2.2rem 4rem;
+    border-radius: 9999px;
+    background: var(--bg-controls);
+}
+
+.button{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: none;
+    cursor: pointer;
+
+    width: 6.4rem;
+    height: 6.4rem;
+    border: none;
+}
+
+.bt-play{
+    background-image: url('../image/playButton.svg');
+}
+
+.bt-pause{
+    background-image: url('../image/pauseButton.svg');
+}
+
+.bt-timer{
+    background-image: url('../image/timerButton.svg');
+}
+
+.bt-stop{
+    background-image: url('../image/stopButton.svg');
+}
+
+/* = = = SOUND = = = */
+
+footer{
+    position: fixed;
+    bottom: 3.2rem;
+    right: 6.4rem;
+}
+
+.bt-soundOFF{
+    background-image: url('../image/soundOff.svg');
+}
+
+.bt-soundON{
+    background-image: url('../image/soundOn.svg');
+}

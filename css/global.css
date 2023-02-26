@@ -1,0 +1,39 @@
+@import './index.css';
+@import './error.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+
+    --bg-page: #000814;
+    --bg-controls: rgba(66, 211, 255, 0.13);
+    --bg-error: #d90429;
+
+    --c-text: #ffffff;
+
+    --ff-text-display: 'Roboto', sans-serif;
+
+}
+
+.disable{
+    display: none;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+
+    background: var(--bg-page);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
