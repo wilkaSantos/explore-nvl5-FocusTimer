@@ -36,7 +36,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Desenvolver uma aplicação chamada "Focus Timer", um temporizador para utilização do método Pomodoro. Onde o usuário, pode definir o tempo de foco em uma atividade. Aplicação também possui um áudio que toca música lofi de fundo, basta ativar para ajudar a concentração da atividade.
 
-- [Visite o projeto](https://github.com/wilkaSantos/explore-nvl5-FocusTimer.git)
+- [Visite o projeto](https://wilkasantos.github.io/explore-nvl5-FocusTimer/)
 
 <br>
 ## 🔖 Layout
